@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    
+fulfillment:
+  exchange:
+    name: sales-order-exchange
+  queue:
+    name: fulfillment-queue
+  routing:
+    key: fulfillment-routing-queue

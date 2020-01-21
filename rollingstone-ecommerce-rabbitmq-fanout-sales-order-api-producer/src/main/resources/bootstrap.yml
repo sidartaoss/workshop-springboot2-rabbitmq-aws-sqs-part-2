@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: rollingstone-ecommerce-rabbitmq-fanout-sales-order-api-producer
+  cloud:
+    config:
+      uri: http://localhost:9000

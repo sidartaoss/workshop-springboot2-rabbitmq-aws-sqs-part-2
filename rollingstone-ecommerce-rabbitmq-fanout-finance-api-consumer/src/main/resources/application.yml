@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    
+account-receivable:
+  exchange:
+    name: sales-order-exchange
+  queue:
+    name: account-receivable-queue
+  routing:
+    key: account-receivable-routing-queue

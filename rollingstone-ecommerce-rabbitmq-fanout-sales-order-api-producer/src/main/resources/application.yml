@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+sales-order:
+  exchange:
+    name: sales-order-exchange
+  routing:
+    key: sales-order-routing-key
